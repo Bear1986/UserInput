@@ -14,6 +14,7 @@ public class Main {
         int age =Integer.parseInt(scanner.nextLine());
 //        int age = scanner.nextInt();
         System.out.println( name + " is " + age + " years old.");
+        System.out.printf("%s is %d years old%n", name, age); //%s formats a string and %d formats an Int>>>>>>> 95b9597 (I added a diferint way to format input that is more comenly used)
 
         scanner.close();
     }
